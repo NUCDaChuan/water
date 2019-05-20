@@ -1,0 +1,402 @@
+@import url("base.css");
+header{
+    position:fixed;
+    left: 0;
+    top: 0;
+    background:#FFFFFF ;
+    width: 100%;
+    height: 0.8rem;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2);
+}
+header i{
+    font-size: 0.44rem;
+}
+.goods {
+    width:96%;
+    padding: 0 0.22rem;
+    height: auto;
+
+}
+.thumb {
+    height: 6.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumb > img{
+    width: 3rem;
+    height: 3.6rem;
+}
+.goods > h1{
+    font-size: 0.28rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.goods > p.desc {
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 1.5;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.info .price {
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+.info {
+    position: relative;
+    font-size: 0.2rem;
+    padding: 0.18rem 0;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.info .total {
+    color: rgba(0,0,0,0.3);
+    line-height: 1.5;
+    display: inline;
+    float:right;
+}
+.total::before {
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50rem;
+    display: inline-block;
+    background-color: #36d681;
+    position: absolute;
+    top: 0.13rem;
+    left: -0.1rem;
+}
+.info > span {
+    margin-right: 0.2rem;
+}
+.info > span:first-child{
+    font-size: 0.26rem;
+
+}
+.info > span:nth-child(2){
+    color: #41b2fc;
+    background: rgba(65,178,252,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}
+
+.info > span:nth-child(3){
+    color: #009966;
+    background: rgba(65,178,252,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}
+.info.total {
+    float: right;
+    overflow: hidden;
+}
+.discount {
+    overflow: hidden;
+}
+.discount div img {
+    margin-top: 0.15rem;
+    width: 0.49rem;
+    height: 0.23rem;
+    float: left;
+}
+.discount .get{
+    margin-top:0.04rem ;
+    margin-left: 0.04rem;
+    float: left;
+    width: 0.5rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    color: #ff844e;
+}
+.info .total > p{
+    margin-left: 0.1rem;
+    float: right;
+    color: #36a8fe;
+}
+.discount .less{
+    margin-left: 0.1rem;
+    float: left;
+    padding: 0.08rem 0.2rem;
+    background-color: #009966;
+    border-radius: 0.22rem;
+    /*background-image:url("../image/ ") ;*/
+    background-image: linear-gradient(-90deg,#ffca3b 70%,#ff933b );
+}
+.prompt{
+    width: 88%;
+    height: 0.76rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+    display: flex;
+    align-items:center;
+}
+.prompt ul{
+    width: 100%;
+    height: 0.76rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.prompt ul li{
+    margin-left: 0.2rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #41b2fc;
+    position: relative;
+}
+.prompt ul li::before {
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50rem;
+    display: inline-block;
+    background-color: #36d681;
+    position: absolute;
+    top: 0.15rem;
+    left:-0.1rem;
+}
+.usertitle{
+    padding: 0.4rem 0.4rem;
+
+}
+
+.usertitle span:nth-child(1){
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #41b2fc;
+    position: relative;
+}
+.usertitle span:nth-child(1):before{
+    width: 0.1rem;
+    height: 0.05rem;
+    content: "";
+    border-radius: 50%;
+    background: #41b2fc;
+    position: absolute;
+    left: -0.15rem;
+    bottom: 0.15rem;
+}
+.usertitle span:nth-child(2){
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+    margin-right: 3.5rem;
+}
+.usertitle span:nth-child(3){
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+
+}
+.usertitle span:nth-child(3) a{
+    color: #3bacfe;
+}
+.usertit ul{
+    padding:0.3rem 0.23rem;
+}
+.userlift {
+    width: 0.85rem;
+    height: 0.85rem;
+
+    overflow: hidden;
+    float: left;
+    padding-right: 0.2rem;
+}
+.usertit ul li{
+    display:table;
+    border-bottom: 0.01rem solid  #d8dfe3;
+
+    padding-bottom: 0.57rem;
+    padding-top: 0.3rem;
+}
+
+.userlift img{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+}
+.userright{
+    float: left;
+    width: 5.5rem;
+    position: relative;
+}
+.userright div:nth-child(1) span:nth-child(1){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+    padding-right: 3.5rem;
+}
+.userright span img{
+    width: 1.27rem;
+    height:0.2rem;
+    float: right;
+    position: absolute;
+    left: 1rem;
+    top: 0.14rem;
+}
+.userright div:nth-child(1) span:nth-child(3){
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #9ed5ff;
+}
+.userright div:nth-child(2) span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.userright div:nth-child(3) span{
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.xie{
+    width: 1.8rem;
+    height: 1rem;
+}
+.shoretit{
+    border-bottom: 0.01rem solid #d8dfe3 ;
+}
+.shoretit .usertitle span:nth-child(1){
+    color: #35db82;
+}
+
+.detailsbo{
+    width: 100%;
+    height: 1.08rem;
+    padding-left: 0.47rem ;
+    padding-right: 0.25rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f1faff;
+    padding-top: 0.2rem;
+
+    z-index: 99;
+}
+.detailsbo div:nth-child(1) img{
+    width: 0.5rem;
+    height: 0.5rem;
+
+}
+.detailsbo div:nth-child(1) a{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.detailsbo div:nth-child(2) img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.detailsbo div:nth-child(2) a{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #2ed977;
+    opacity: 0.6;
+}
+.detailsbo div:nth-child(3){
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0rem 0.04rem 0.02rem rgba(55, 223, 116, 0.75);
+rgba(55, 223, 116, 0.75);
+    text-align: center;
+}
+.detailsbo div:nth-child(3) span{
+    color: white;
+    line-height: 0.6rem;
+    text-align: center;
+}
+.detailsbo div:nth-child(4){
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem rgba(59, 172, 254, 0.43);;
+
+    text-align: center;
+}
+.detailsbo div:nth-child(4) span{
+    color: white;
+    line-height: 0.6rem;
+    text-align: center;
+}
+.sametit .usertitle span:nth-child(1){
+    color: #35db82;
+}
+.sametit{
+    height: 8rem;
+}
+.sametit div ul{
+    padding: 0.5rem 0.24rem;
+    display: table;
+
+}
+.sametit div ul li{
+    float: left;
+    padding-right: 0.4rem;
+    padding-bottom: 0.69rem;
+}
+.sametit div ul li span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.sametit div ul li div{
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #fbb548;
+}
+.sametit div li img{
+    display: block;
+    width: 1.31rem;
+    height: 1.37rem;
+}
