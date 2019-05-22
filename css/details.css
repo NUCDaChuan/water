@@ -16,6 +16,7 @@ header{
     box-shadow:0 2px 15px rgba(78,187,254,0.2);
 }
 header i{
+    color: #4ebbfe;
     font-size: 0.44rem;
 }
 .goods {

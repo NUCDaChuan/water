@@ -14,10 +14,6 @@ header{
     align-items: center;
     box-sizing: border-box;
 }
-header i.icon-fanhui1{
-    color: #4ebbfe;
-    font-size: 0.44rem;
-}
 
 *{
     margin:0;
