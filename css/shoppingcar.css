@@ -140,7 +140,7 @@ footer {
     padding: 0.2rem;
 }
 .footerLeftP1 {
-    margin-top: -0.1rem;
+    margin-top: 0.14rem;
     margin-bottom: 0.1rem;
 }
 .footerLeftP1 span {
@@ -174,4 +174,47 @@ footer {
 }
 .green{
     background: #31d69a;
+}
+.carkong{
+    width: 100%;
+    margin:3rem auto;
+}
+.blank{
+    margin-left: 1.7rem;
+}
+.blank img{
+    width: 4rem;
+    height:4rem;
+}
+.blank p{
+    font-size: 0.26rem;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    text-align: center;
+    padding-right: 0.5rem;
+    opacity: 0.4;
+}
+.see{
+    width: 1.96rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem  0.2rem 0;
+rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.carsee{
+
+    padding-left:25%;
+
 }
