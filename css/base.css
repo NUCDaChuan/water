@@ -25,11 +25,10 @@ body {
         font-size: 55.2px; } }
 
 
-body{
+body,li,ul,h1,h2,h3,h4,h5,ol,p,img,i,div,a{
     padding: 0;
     margin: 0;
     list-style: none;
-    /*background: #e9eaed;*/
     background: #FFFFFF;
 }
 ul,li{
@@ -41,7 +40,7 @@ ul,li{
     -webkit-text-size-adjust:100%;
 }
 a{
-    color: #ffffff;
+    color: #333333;
     text-decoration: none;
 }
 img{
@@ -49,4 +48,5 @@ img{
     height: 100%;
     display: block;
 }
+
 
